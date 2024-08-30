@@ -86,7 +86,7 @@ public class CounterController {
      */
     @GetMapping(value = "/test")
     ApiResponse test() {
-        return ApiResponse.ok("欢迎来到云托管~~~");
+        return ApiResponse.ok("欢迎来到小程序云托管~~~");
     }
 
 }
